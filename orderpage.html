@@ -7,22 +7,22 @@
     <title>Document</title>
     <link rel="stylesheet" href="bkstyle.css">
 </head>
-<body>
-    <header class="header">
+<body style="background-color:#f5ebdc ;">
+    <header class="orderheader" style="position: fixed;">
         <div style="display: flex;">
             <a href="/Users/vokeokandeji/Desktop/VS code/BK-NIGERIA/HP.html"><img style="max-width: 150px;line-height: 20.02px;width: 60px;" src="https://s3-eu-central-1.amazonaws.com/www.burger-king.ng/wp-media-folder-burger-king-nigeria//home/ubuntu/wordpress/web/app/uploads/sites/12/2021/08/Burger-King-logo.svg" alt=""></a>
             <ul>
                 <a href="/Users/vokeokandeji/Desktop/VS code/BK-NIGERIA/orderpage.html">
-                    <li>order</li>
+                    <li class="chosenone">order</li>
                 </a>
                 <a href="/Users/vokeokandeji/Desktop/VS code/BK-NIGERIA/menupg.html">
                     <li>menu</li>
                 </a>
                 <a href="/Users/vokeokandeji/Desktop/VS code/BK-NIGERIA/offerspg.html">
-                    <li >offers</li>
+                    <li>offers</li>
                 </a>
                 <a href="/Users/vokeokandeji/Desktop/VS code/BK-NIGERIA/restaurantspg.html">
-                    <li class="chosenone">restaurants</li>
+                    <li>restaurants</li>
                 </a>
                 <a href="/Users/vokeokandeji/Desktop/VS code/BK-NIGERIA/careerspg.html">
                     <li>careers</li>
@@ -31,71 +31,48 @@
                     <li>news</li>
                 </a>
             </ul>
+            <input class="regbtn" type="button" value="Register">
         </div>
     </header>
-    <main class="ordermain" style="">
+    <main class="ordermain">
         <div style="display: flex;">
-            <div>
-                <div style="display: flex;margin-left: 30px;">
-                    <a href="/Users/vokeokandeji/Desktop/VS code/BK-NIGERIA/HP.html">
-                        <h2 style="color:#502314 ;padding-right: 20px;" class="subhdrbtns">home</h2>
-                    </a>
-                    <h2 style="color: #502314;" class="subhdrbtns">/</h2>
-                    <a href="/Users/vokeokandeji/Desktop/VS code/BK-NIGERIA/offerspg.html">
-                        <h2 style="padding-left: 20px;padding-right: 20px;" class="subhdrbtns">restaurants</h2>
-                    </a>
-                </div>
-                <h2 style="padding-left: 30px;">restaurants</h2>
+            <div class="smallkala">
                 <div style="display: flex;">
-                    <input style="display: flex;border-radius: 8px;height: 51px;width: 385.328px;margin-left: 30px;border: none;" type="text" placeholder="Please, enter your location">
-                    <img style="height: 63px;max-width: 24px;padding-left: 20px;" src="https://www.burger-king.ng/_nuxt/img/locationIcon.5571dc6.svg" alt="">
+                    <img class="ordericons" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVUD0m6IaWxC9sHVeDmhpgFiCd7YPfbyEHfg&usqp=CAU" alt="">
+                    <input style="margin-top: 15px;" class="orderbtns" type="button" value="Dine-in pickup">
                 </div>
-                <div>
-                    <div class="offerblock2">
-                        <h5 class="blocktext">victoria island</h5>
-                        <h5 class="blocktext2">274 ajose adeogun</h5>
-                        <h5 style="position: relative; bottom: 30px;color: red;" class="blocktext2">show on map</h5>
-                    </div>
-                </div>       
-                <div>
-                    <div class="offerblock2">
-                        <h5 class="blocktext">lekki</h5>
-                        <h5 class="blocktext2">11b victoria arobieke st, lekki phase 1</h5>
-                        <h5 style="position: relative; bottom: 30px;color: red;padding-bottom: 10px;" class="blocktext2">show on map</h5>
-
-                    </div>
+                <div style="display: flex;">
+                    <img class="ordericons" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsVz0L9igSheHEjeYHt6jLZ3alMe0nFe57Ew&usqp=CAU" alt="">
+                    <input style="margin-top: 15px;" class="orderbtns" type="button" value="Take out">
                 </div>
-                <div>
-                    <div class="offerblock2">
-                        <h5 class="blocktext">yaba</h5>
-                        <h5 class="blocktext2">282 herbert macauley way</h5>
-                        <h5 style="position: relative; bottom: 30px;color: red;" class="blocktext2">show on map</h5>
-
-                    </div>
+                <div style="display: flex;">
+                    <img class="ordericons" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNew84k1KlaQGtGcKdjytY77s86zp-4S1O-A&usqp=CAU" alt="">
+                    <input style="margin-top: 15px;" class="orderbtns" type="button" value="Delivery">
                 </div>
-                <div>
-                    <div class="offerblock2">
-                        <h5 class="blocktext">gbagada</h5>
-                        <h5 class="blocktext2">296, gbagada-oworonshoki expressway</h5>
-                        <h5 style="position: relative; bottom: 30px; color: red;" class="blocktext2">show on map</h5>
-
-                    </div>
-                </div> 
-                <div>
-                    <div class="offerblock2">
-                        <h5 class="blocktext">festac</h5>
-                        <h5 class="blocktext2">132 festac access road</h5>
-                        <h5 style="position: relative; bottom: 30px;color: red;" class="blocktext2">show on map</h5>
-
-                    </div>
-                </div> 
-                <div style="height: 30vh;"></div>        
             </div>
-            <div style="width: 0.0001px;border: solid;background-color: gray;margin-bottom: 20px; border-color:gray; position: relative; left: 4vh;">
+            <div>
+                <img style="width: 100vh;height: 80vh;" src="https://s3-eu-central-1.amazonaws.com/www.burger-king.ng/wp-media-folder-burger-king-nigeria//home/ubuntu/wordpress/web/app/uploads/sites/12/Whopper-Sandw.jpg" alt="">
             </div>
-            <div style="position: relative; left: 20vh">
-                <iframe style="width: 86vh;height: 100vh;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31716.28444626893!2d3.4011409147765983!3d6.4536135302692355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf4cc9b07cf55%3A0xc4ae10b395418b9b!2sLagos%20Island!5e0!3m2!1sen!2sus!4v1683653144059!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
+        </div>
+        <h3 style="padding-left: 255px;">News</h3>
+        <div style="display: flex;padding-left: 250px;padding-bottom: 50px;">
+            <img class="micros" src="https://s3-eu-central-1.amazonaws.com/www.burger-king.ng/wp-media-folder-burger-king-nigeria//home/ubuntu/wordpress/web/app/uploads/sites/12/news-card.jpg" alt="">
+            <img class="micros" src="https://s3-eu-central-1.amazonaws.com/www.burger-king.ng/wp-media-folder-burger-king-nigeria//home/ubuntu/wordpress/web/app/uploads/sites/12/bkcarrier-01.jpg" alt="">
+            <img class="micros" src="https://s3-eu-central-1.amazonaws.com/www.burger-king.ng/wp-media-folder-bk-nigeria//home/ubuntu/preview/menu-app/frontend/apps/marketing-website-wordpress-app/web/app/uploads/sites/12/meet-the-long-kings.jpg" alt="">
+        </div>
+        <div class="general">
+            <div style="padding-left: 260px;">                
+                <h2>the whopper has a new<br> home</h2>
+                <p>burger king is now grilling in nigeria and the<br> whopper has a new home!!</p>
+           </div>
+           <div style="padding-left: 40px;">
+            <h2>join the bk team</h2>
+            <p>get to know current job oppurtunities at burger<br> king & apply</p>
+           </div>
+           <div style="padding-left: 40px;">
+            <h2>whats better than one<br> king?</h2>
+            <p>burger king is now grilling in nigeria and the<br> whopper has a new home!!</p>
+           </div>
         </div>
     </main>
     <footer>

@@ -1,0 +1,319 @@
+li{
+    list-style: none; 
+    padding-left: 30px; 
+    text-transform: capitalize;
+    cursor: pointer;
+    font-weight: 900;
+    color: #502314;
+}
+li:hover{
+    color:  #f37335;
+    text-decoration: underline;
+    
+
+}
+ul{
+    display: flex;
+    padding-left: 20px;
+}
+header{
+    display: flex;
+    padding-left: 250px;
+    background-color: #f5ebdc;
+}
+.general{
+    display: flex;
+}
+main{
+    background-color: #f5ebdc;
+}
+.micros{
+    border-radius: 10px;
+    height: 224px;
+    line-height: 20.02px;
+    object-fit: cover;
+    padding-top: 4px;
+    width: 336px;
+    padding-left: 20px;
+}
+h3{
+      color: #502314;
+    font-weight: 800;
+    text-transform: capitalize;
+    font-size: 28px;
+    line-height: 35px;
+}
+h2{
+    color: #502314;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 35px;
+    text-transform: uppercase;
+      
+}
+p{
+    color: #502314cc;
+    font-size: 16px;
+    line-height: 21px;
+    margin-bottom: 24px;
+    margin-block-end: 24px;
+    text-transform: capitalize;
+}
+.bigkala{
+    display: flex;
+    background-color: #efe0cc;
+    background-origin: padding-box;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    box-sizing: border-box;
+    height: 278.391px;
+    line-height: 24px;
+    padding-bottom: 47px;
+    padding-left: 48px;
+    padding-right: 143px;
+    padding-top: 47px;
+    width: 1100px;
+    margin-left: 250px;
+}
+footer{
+    background-color: #502314;
+    height: 500.516px;
+}
+h4{
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 31.02px;
+    margin-bottom: 24px;
+    margin-block-start: 24px;
+    color: #ffff;
+    padding-left: 100px;
+}
+.white{
+    color:#fff;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 22.88px;
+    text-transform: capitalize;
+    padding-left: 100px;
+    padding-bottom: vh;
+}
+.regbtn{
+    font: sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    width: 72.921px;
+    margin-left: 60vh;
+    line-height: normal;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    background-color: #D62300;
+    color: #fff;
+    border-style: hidden;
+}
+.ordermain{
+    background-color:#f5ebdc;
+    
+}
+.smallkala{
+    background-color: #efe2cf;
+    background-origin: padding-box;
+    border-bottom-left-radius: 28px;
+    border-bottom-right-radius: 28px;
+    border-top-left-radius: 28px;
+    border-top-right-radius: 28px;
+    box-sizing: border-box;
+    height: 378.391px;
+    line-height: 24px;
+    padding-bottom: 47px;
+    padding-left: 48px;
+    padding-right: 143px;
+    padding-top: 47px;
+    width: 450px;
+    margin-left: 250px;
+    margin-top: 12vh;
+}
+.orderheader{
+    display: flex, cover;
+    padding-left: 250px;
+    background-color: #f5ebdc;
+    width: 100%;
+}
+.chosenone{
+    color: #d72300;
+    align-items: center;
+    border-radius: 30px;
+    text-align: center;
+}
+.orderbtns{
+    width: 1000vh;
+    height: 63.9688px;
+    line-height: 23.97px;
+    font-weight: 400;
+    font-size: 17px;
+    cursor: pointer;
+    font-family: sans-serif;
+    text-align: left;
+    margin-block-end: 4px;
+    margin: 10px;
+    margin-top: 40px;
+    border-radius: 20px;
+    border-color: #f5ebdc;
+    background-color: #f5ebdc;
+}
+.ordericons{
+    width: 48px;
+    height: 7vh;
+    font-weight: 700;
+    margin: 10px;
+    cursor: pointer;
+}
+.subhdrbtns{
+    color: #d72300;
+    line-height: 21px;
+    font-weight: 700;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.menuimages{
+    cursor: pointer;
+    width: 344px;
+    line-height: 20.02px;
+}
+.menutext{
+    color: #502314;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 31.9px;
+    text-align: center;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.menudiv{
+    align-items: center;
+    justify-items: center;
+    cursor: pointer;
+}
+.menurow{
+    display: flex;
+    padding-left: 50px;
+    cursor: pointer;
+}
+.offerblock{
+    background-color: #fff;
+    border-radius: 20px;
+    width: 60vh;
+    display: flex;
+    line-height: 24px;
+    margin-bottom: 10px;
+    height: 130px;
+    cursor: pointer;
+    margin-left: 30px;
+}
+.offerblock:hover{
+    border: solid;
+    border-color: #f37335;
+}
+.blocktext{
+    font-size: 15px;
+    font-weight: 1900;
+    line-height: 21px;
+    color: #502314;
+    text-transform: uppercase;
+    font-family: serif;
+    cursor: pointer;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.blockimages{
+    height: 90px;
+    width: 130px;
+    border-radius: 8px;
+    cursor: pointer;
+    max-width: 130px;
+    line-height: 24px;
+    margin-left: 18vh;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.offerblock2{
+    background-color: #fff;
+    border-radius: 20px;
+    width: 60vh;
+    line-height: 24px;
+    margin-bottom: 10px;
+    height: 130px;
+    cursor: pointer;
+    margin-left: 30px;
+}
+.offerblock2:hover{
+    border: solid;
+    border-color: #f37335;
+    cursor: pointer;
+}
+.blocktext2{
+    font-size: 15px;
+    font-weight: 1900;
+    line-height: 21px;
+    color: #573124b5;
+    text-transform: capitalize;
+    font-family: serif;
+    cursor: pointer;
+    padding-left: 20px;
+    padding-bottom: 0px;
+    cursor: pointer;
+}
+.careertext{
+    font-size: 50px;
+    color: #502314;
+    font-weight: 900;
+    line-height: 52.8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.careerimages{
+    border-radius: 8px;
+    height: 254px;
+    width: 1100px;
+    padding: 20px;
+    cursor: pointer;
+}
+.careertext2{
+    font-size: 20px;
+    color: #823b2399;
+    font-weight: 300;
+    line-height: 21px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: capitalize;
+    text-align: center;
+    cursor: pointer;
+}
+.careerbtn{
+    font-size: 16px;
+    height: 50px;
+    line-height: 28px;
+    font-weight: 500;
+    background-color: #d72300;
+    text-align: center;
+    align-items: center;
+    width: 220px;
+    margin-left: 50vh;
+    border-radius: 10px;
+    border-style: none;
+    color: white;
+    justify-content: center;
+    text-transform: capitalize;
+    margin-bottom: 17vh;
+    cursor: pointer;
+}
+.newsimages{
+    border-radius: 8px;
+    height: 230px;
+    width: 344px;
+    margin-bottom: px;
+}
